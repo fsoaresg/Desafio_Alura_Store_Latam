@@ -160,7 +160,7 @@ Se analizaron las ventas de las 4 tiendas:
 [![Explorar Mapa Interactivo](https://img.shields.io/badge/Explorar-Mapa%20Interactivo-2563eb?style=for-the-badge&logo=leaflet&logoColor=white)](https://superb-starburst-6b8092.netlify.app/)
 
 **Vista Previa:**
-![Captura de visualizaciones interactivas]((images/mapa%20interactivo%20vista%20previa.png)
+![Captura de visualizaciones interactivas](images/mapa%20interactivo%20vista%20previa.png)
 
 ---
 
