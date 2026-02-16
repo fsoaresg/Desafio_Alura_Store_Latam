@@ -1,12 +1,108 @@
 ---
 
-# Desafio Alura Store Latam
+# Alura Store LATAM – Optimización Estratégica del Portafolio de Tiendas
+
+Proyecto de análisis end-to-end orientado a identificar la unidad menos eficiente del portafolio y traducir métricas operativas en una decisión estratégica de inversión.
 
 ---
 
-## Descripción del proyecto
+## Problema de Negocio
 
-El objetivo es identificar la tienda menos eficiente y presentar una recomendación final basada en los datos que ayude al Sr. Juan a decidir qué tienda de su cadena Alura Store debe vender para iniciar un nuevo emprendimiento. Para ello, se analizan datos de ventas, rendimiento y reseñas de las 4 tiendas de Alura Store.
+El Sr. Juan, propietario de la cadena Alura Store, desea vender una de sus 4 tiendas para financiar un nuevo emprendimiento.
+
+La decisión no puede basarse en percepción, sino en:
+
+- Rentabilidad comparativa
+- Eficiencia operativa
+- Satisfacción del cliente
+- Desempeño comercial por categoría
+- Impacto estratégico dentro del portafolio
+- 
+El objetivo del proyecto fue determinar, con base en datos, qué tienda aporta menor valor estratégico al negocio.
+
+---
+
+## Enfoque Analítico
+
+El análisis siguió una estructura orientada a toma de decisión ejecutiva:
+
+1. Extracción de datos desde GitHub (4 datasets independientes)
+2. Limpieza y validación de datos
+3. Cálculo de KPIs comparativos
+4. Análisis de eficiencia multidimensional
+5. Identificación de causa raíz
+6. Recomendación estratégica fundamentada
+
+---
+
+## Indicadores Evaluados
+
+Se construyó una evaluación comparativa basada en:
+
+- Ingresos totales y participación porcentual
+- Ventas por categoría
+- Calificación promedio de clientes
+- Productos más y menos vendidos
+- Costo de envío promedio
+- Matriz de Eficiencia (Satisfacción vs Costos)
+- Matriz de Valor Estratégico (Satisfacción vs Ingresos)
+- Eficiencia Global (modelo ponderado)
+
+El análisis no se limitó a métricas aisladas, sino a una evaluación integrada del desempeño.
+
+---
+
+## Hallazgos Clave
+
+**La Tienda 4:**
+
+- **Presenta el menor ingreso total de las cuatro tiendas**
+  Es la unidad con menor contribución financiera dentro del portafolio.
+
+- **No lidera en ninguna categoría estratégica**
+   No destaca ni en volumen de ventas ni en rotación de productos clave.
+
+- **Tiene una calificación promedio inferior**
+   Reflejando una menor satisfacción del cliente.
+
+- **Presenta bajo desempeño incluso con vendedores experimentados**
+   Vendedores con buen historial en otras sucursales, como Pedro Gomez, muestran bajo rendimiento, lo que sugiere problemas estructurales u operativos.
+
+- **Con un menor costo de envío no logra compensar sus debilidades**
+   Aunque posee el costo de envío más bajo, este factor no logra equilibrar sus debilidades en ingresos y percepción del cliente.
+
+- **Sus productos más vendidos no alcanzan el nivel de desempeño observado en otras tiendas**
+   Incluso sus top sellers muestran menor tracción relativa frente a los líderes del portafolio.
+
+- **Posee productos con baja rotación**
+   Especialmente en:
+     - Instrumentos musicales
+     - Electrodomésticos
+       
+- **Presenta la menor eficiencia global dentro del portafolio**
+   El modelo ponderado confirma que Tienda 4 ocupa la última posición en desempeño integral.
+
+---
+
+## Resultado Final
+
+- **Tienda con mayor eficiencia global: Tienda 1**
+- **Tienda con menor eficiencia global: Tienda 4**
+
+---
+
+## Recomendación Estratégica
+
+**Vender Tienda 4.**
+
+Desde una perspectiva de portafolio:
+
+- Es la unidad con menor aporte estratégico.
+- No presenta ventajas competitivas diferenciales.
+- Su eficiencia global es la más baja del grupo.
+- La reinversión del capital en un nuevo proyecto podría generar mayor retorno esperado.
+
+La decisión no responde únicamente a ingresos, sino a una evaluación integral de eficiencia y valor estratégico.
 
 ---
 
@@ -32,8 +128,7 @@ Se analizaron las ventas de las 4 tiendas:
 | Tienda 3 | [CSV](https://raw.githubusercontent.com/fsoaresg/Desafio-Alura-Store-Latam/main/base-de-datos-alura-store-latam/tienda_3.csv) |
 | Tienda 4 | [CSV](https://raw.githubusercontent.com/fsoaresg/Desafio-Alura-Store-Latam/main/base-de-datos-alura-store-latam/tienda_4.csv) |
 
---- 
-**Columnas principales:**  
+**Variables principales:**  
 - Producto  
 - Categoría del producto  
 - Precio  
@@ -41,6 +136,24 @@ Se analizaron las ventas de las 4 tiendas:
 - Calificación promedio  
 - Vendedor  
 - Ubicación (latitud y longitud)
+
+---
+
+## Visualizaciones Generadas
+
+![Gráfico del Análisis Estadístico de las Variables Numéricas](/images/Gr%C3%A1fico%20del%20An%C3%A1lisis%20Estad%C3%ADstico%20de%20las%20Variables%20Num%C3%A9ricas.png)
+
+![Distribución de la Evasión (Churn) de los Clientes](images/Distribuci%C3%B3n%20de%20la%20Evasi%C3%B3n%20(Churn)%20de%20los%20Clientes.png))
+
+![Recuento de la evasión por variables categóricas](images/Recuento%20de%20la%20evasi%C3%B3n%20por%20variables%20categ%C3%B3ricas.png)
+
+![Tasa de Deserción por Perfil y Género](images/Tasa%20de%20Deserci%C3%B3n%20por%20Perfil%20y%20G%C3%A9nero.png)
+
+![Recuento de la evasión por variables numéricas](images/Recuento%20de%20la%20evasi%C3%B3n%20por%20variables%20num%C3%A9ricas.png)
+
+![Comparativa de Deserción: Ciclo de Vida por Contrato](images/Comparativa%20de%20Deserci%C3%B3n%20Ciclo%20de%20Vida%20por%20Contrato.png)
+
+![Análisis de correlación entre variables](images/An%C3%A1lisis%20de%20correlaci%C3%B3n%20entre%20variables.png)
 
 ---
 
@@ -73,32 +186,6 @@ Se analizaron las ventas de las 4 tiendas:
    - Desarrollo del análisis
    - Conclusión y recomendación final
    - Recomendación adicional
-  
-  ---
-
-  ## Resultados clave
-
-- **Tienda con mayor eficiencia global**: Tienda 1
-- **Tienda con menor eficiencia global**: Tienda 4
-
-**Observaciones de la Tienda 4:**
-
-- Presenta el menor ingreso total de las cuatro tiendas.
-- No destaca en la venta de categorías clave ni en la rotación de productos.
-- Tiene una calificación promedio inferior, reflejando una menor satisfacción del cliente.
-- Sus productos más vendidos no alcanzan el nivel de desempeño observado en otras tiendas.
-- Productos con baja rotación, principalmente en **Instrumentos musicales** y **Electrodomésticos**.
-- Aunque posee el costo de envío más bajo, este factor no compensa sus debilidades en ingresos y experiencia del cliente.
-- Incluso vendedores con buen historial en otras sucursales, como Pedro Gomez, muestran bajo desempeño, lo que sugiere problemas operativos o logísticos.
-- Muestra la menor eficiencia global dentro del portafolio.
-
----
-
-## Conclusión y recomendación
-
-- **Tienda recomendada para vender**: Tienda 4
-
-Basado en los indicadores de ingresos, satisfacción y eficiencia global, la Tienda 4 es la unidad menos estratégica del portafolio de Alura Store. Su venta permitiría al Sr. Juan optimizar recursos y reinvertir en un nuevo emprendimiento con mayor potencial.
 
 ---
 
@@ -119,7 +206,9 @@ Basado en los indicadores de ingresos, satisfacción y eficiencia global, la Tie
 
 ├── README.md # Este archivo
 
-├── base-de-datos-alura-store-latam/
+├── 📂 images/
+
+├── 📂 base-de-datos-alura-store-latam/
 
 │ ├── tienda_1.csv
 
@@ -131,10 +220,26 @@ Basado en los indicadores de ingresos, satisfacción y eficiencia global, la Tie
 
 ---
 
+## Competencias Demostradas
+
+Este proyecto evidencia capacidad en:
+
+- Análisis comparativo multivariable
+- Construcción de KPIs estratégicos
+- Evaluación de eficiencia operativa
+- Identificación de causa raíz
+- Storytelling orientado a negocio
+- Traducción de métricas en decisiones ejecutivas
+- Análisis geoespacial aplicado
+- Pensamiento estratégico de portafolio
+
+---
+
 ## Autor
 
 **Fátima Soares**  
-Analista de datos, apasionada por la visualización y análisis de métricas, transformando datos en información útil para la toma de decisiones.  
+Data Analyst | Enfoque en análisis estratégico y toma de decisiones basada en datos.
+Especializada en transformar métricas operativas en insights ejecutivos accionables.
 [GitHub](https://github.com/fsoaresg)
 
 ---
