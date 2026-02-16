@@ -141,19 +141,26 @@ Se analizaron las ventas de las 4 tiendas:
 
 ## Visualizaciones Generadas
 
-![Gráfico del Análisis Estadístico de las Variables Numéricas](/images/Gr%C3%A1fico%20del%20An%C3%A1lisis%20Estad%C3%ADstico%20de%20las%20Variables%20Num%C3%A9ricas.png)
+![Ingresos totales por tienda](images/Ingresos%20totales%20por%20tienda.png)
 
-![Distribución de la Evasión (Churn) de los Clientes](images/Distribuci%C3%B3n%20de%20la%20Evasi%C3%B3n%20(Churn)%20de%20los%20Clientes.png))
+![Ventas por categoría de productos](images/Popularidad%20de%20Categor%C3%ADas%20por%20Tienda.png)
 
-![Recuento de la evasión por variables categóricas](images/Recuento%20de%20la%20evasi%C3%B3n%20por%20variables%20categ%C3%B3ricas.png)
+![Calificación promedio de los clientes](images/Satisfacci%C3%B3n%20promedio%20de%20los%20clientes%20por%20tienda.png)
 
-![Tasa de Deserción por Perfil y Género](images/Tasa%20de%20Deserci%C3%B3n%20por%20Perfil%20y%20G%C3%A9nero.png)
+![Productos más y menos vendidos](images/Productos%20m%C3%A1s%20y%20menos%20vendidos%20por%20tienda.png)
 
-![Recuento de la evasión por variables numéricas](images/Recuento%20de%20la%20evasi%C3%B3n%20por%20variables%20num%C3%A9ricas.png)
+![Costo de envío promedio](images/Env%C3%ADo%20promedio%20por%20tienda.png)
 
-![Comparativa de Deserción: Ciclo de Vida por Contrato](images/Comparativa%20de%20Deserci%C3%B3n%20Ciclo%20de%20Vida%20por%20Contrato.png)
+![Análisis integrado: eficiencia, valor estratégico y desempeño](images/Matriz%20de%20Eficiencia%20y%20Matriz%20de%20Valor%20Estrat%C3%A9gico.png)
 
-![Análisis de correlación entre variables](images/An%C3%A1lisis%20de%20correlaci%C3%B3n%20entre%20variables.png)
+![Mapa de calor](images/mapa%20de%20calor.png)
+
+## Mapa interactivo de las ventas
+
+[![Explorar Mapa Interactivo](https://img.shields.io/badge/Explorar-Mapa%20Interactivo-2563eb?style=for-the-badge&logo=leaflet&logoColor=white)](https://superb-starburst-6b8092.netlify.app/)
+
+**Vista Previa:**
+![Captura de visualizaciones interactivas]((images/mapa%20interactivo%20vista%20previa.png))
 
 ---
 
